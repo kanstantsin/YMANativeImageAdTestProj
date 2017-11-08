@@ -18,7 +18,7 @@ class YandexAdFoxViewManager: NSObject, YMANativeAdLoaderDelegate, YMANativeAdDe
     fileprivate let apiKey = "b0a8a309-bcea-4b76-84eb-d62aa536ca06"
     
     /// Уникальный id для рекламы
-    fileprivate let blockId = "R-M-252144-2"
+    fileprivate let blockId = "R-M-187883-1"
     
     /// UIView в который встраивается YMAAdView с рекламой
     fileprivate weak var parentContentView: UIView!
@@ -38,8 +38,8 @@ class YandexAdFoxViewManager: NSObject, YMANativeAdLoaderDelegate, YMANativeAdDe
    lazy var requestParams: [String : String] = {
         
         var parameters = [String : String]()
-        parameters["adf_ownerid"] = "255877"
-        parameters["adf_p1"] = "byoax"
+        parameters["adf_ownerid"] = "168627"
+        parameters["adf_p1"] = "bvyhu"
         parameters["adf_p2"] = "fksh"
         parameters["adf_pt"] = "b"
         
