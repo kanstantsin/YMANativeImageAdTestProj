@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2432531DBFB3CCB1161FB46D0FC75E4B /* Pods-TestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD86C7C79E99083A4C73CB74171E7279 /* Pods-TestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54ADB0587664D47F4FECB54D19AE4724 /* Pods-TestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F7A6F71D88C8F533B41DA16D01D8B7 /* Pods-TestProject-dummy.m */; };
+		EA11CB7F1796F27D2BFA3337CEF3AD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3511714A0E9ECE8797145384F4AD76 /* YMANativeBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBannerView.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeBannerView.h; sourceTree = "<group>"; };
+		0EFCF326631A93AAB9EF16245BFB6675 /* YMAMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMobileAds.h; path = dynamic/YandexMobileAds.framework/Headers/YMAMobileAds.h; sourceTree = "<group>"; };
+		2361885F9FE25CD3A2D4306F4C683734 /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
+		23F62984AA60E397E45BF7D73ACE91FA /* YMAAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdRequest.h; path = dynamic/YandexMobileAds.framework/Headers/YMAAdRequest.h; sourceTree = "<group>"; };
+		3921A5E17F84A4D938E67C35A81DD1BF /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3925F6185C54286F7D8475D216B1BCE7 /* YMAErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAErrors.h; path = dynamic/YandexMobileAds.framework/Headers/YMAErrors.h; sourceTree = "<group>"; };
+		399D1A72F6E26F9D0CF9364322C70E03 /* YMANativeAdTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdTypes.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdTypes.h; sourceTree = "<group>"; };
+		3D77CF6FF965AE362375805E1FD48C03 /* YMAVASTTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVASTTracker.h; path = dynamic/YandexMobileAds.framework/Headers/YMAVASTTracker.h; sourceTree = "<group>"; };
+		3EB493B2E748D56ED318CC867C3D1F83 /* YandexMobileVASTAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileVASTAds.h; path = dynamic/YandexMobileAds.framework/Headers/YandexMobileVASTAds.h; sourceTree = "<group>"; };
+		40EB8CAB2F744CD390440EB81C27D50D /* YandexMobileMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileMetrica.h; path = dynamic/YandexMobileMetrica.framework/Headers/YandexMobileMetrica.h; sourceTree = "<group>"; };
+		419DD183AD6FF87C2EAE215070C86B87 /* Pods-TestProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestProject-resources.sh"; sourceTree = "<group>"; };
+		4485695759244A89299B8ABB4E4ACAAC /* YMANativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdImage.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdImage.h; sourceTree = "<group>"; };
+		46EA439167424B151FBEC204CFB2F32C /* YMANativeImageLoadingObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeImageLoadingObserver.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeImageLoadingObserver.h; sourceTree = "<group>"; };
+		47C4C9BBCDD60052356DF5D4B264D1DF /* YMAYandexVASTAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAYandexVASTAds.h; path = dynamic/YandexMobileAds.framework/Headers/YMAYandexVASTAds.h; sourceTree = "<group>"; };
+		541B44EB21F54844943153FF1AB76D38 /* Pods-TestProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		59414316956B6970A7009E833E587819 /* YMMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMVersion.h; path = dynamic/YandexMobileMetrica.framework/Headers/YMMVersion.h; sourceTree = "<group>"; };
+		5D5276B606F32CC3F17F6A0C51B890F1 /* YMACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMACreative.h; path = dynamic/YandexMobileAds.framework/Headers/YMACreative.h; sourceTree = "<group>"; };
+		62F635F40D8C7C989E64AB838DAF58CF /* YMAIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAIcon.h; path = dynamic/YandexMobileAds.framework/Headers/YMAIcon.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		679827E6E57712F04835142C2EF978BD /* YMANativeAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdLoader.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdLoader.h; sourceTree = "<group>"; };
+		6A3A47448E2224F38661D11F17092899 /* YMMYandexMetricaReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaReporting.h; path = dynamic/YandexMobileMetrica.framework/Headers/YMMYandexMetricaReporting.h; sourceTree = "<group>"; };
+		6AC6E5930A4CB09BF358909108400CBE /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestProject.framework; path = "Pods-TestProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F16EAAA5BF40271AAE8EEDDD2CFBC71 /* YMABlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMABlock.h; path = dynamic/YandexMobileAds.framework/Headers/YMABlock.h; sourceTree = "<group>"; };
+		730672E8881BA6A15F4D9D09958B44F6 /* YMAAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdSize.h; path = dynamic/YandexMobileAds.framework/Headers/YMAAdSize.h; sourceTree = "<group>"; };
+		7B191B2D9F4F4B56698C2C0F9381603A /* YMMYandexMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetrica.h; path = dynamic/YandexMobileMetrica.framework/Headers/YMMYandexMetrica.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C77B66487C38090D51A50C4B32187A /* YMAVideoAdsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVideoAdsRequest.h; path = dynamic/YandexMobileAds.framework/Headers/YMAVideoAdsRequest.h; sourceTree = "<group>"; };
+		A1FE00A2AAC57D8FA4AB59E4B05BF8BF /* YMANativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdDelegate.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdDelegate.h; sourceTree = "<group>"; };
+		A3568E666C6BFA5FC217F039D9D84BE6 /* YMANativeAssetsAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAssetsAppearance.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAssetsAppearance.h; sourceTree = "<group>"; };
+		A76D54A9E63FE9510A4A6D8D357D9E49 /* YandexMobileMetrica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMobileMetrica.framework; path = dynamic/YandexMobileMetrica.framework; sourceTree = "<group>"; };
+		A79C32196A31F9A7454398963A82B3ED /* YMANativeAdErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdErrors.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdErrors.h; sourceTree = "<group>"; };
+		A89C0D37DFA3D3F1C62B0DAF101A4E38 /* Pods-TestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TestProject.modulemap"; sourceTree = "<group>"; };
+		A8C153EB854999B76D2E235603F54B7B /* YMABlocksInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMABlocksInfo.h; path = dynamic/YandexMobileAds.framework/Headers/YMABlocksInfo.h; sourceTree = "<group>"; };
+		A965B5EAD7E1E0B59334A199DC5DFC81 /* YMANativeGenericAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeGenericAd.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeGenericAd.h; sourceTree = "<group>"; };
+		AADC68E806B84900BCD10C80838BCDE8 /* YMARating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMARating.h; path = dynamic/YandexMobileAds.framework/Headers/YMARating.h; sourceTree = "<group>"; };
+		AD86C7C79E99083A4C73CB74171E7279 /* Pods-TestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestProject-umbrella.h"; sourceTree = "<group>"; };
+		AE9CE9A71B90CE2E3CA6BB0B2719B878 /* YMANativeTemplateAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeTemplateAppearance.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeTemplateAppearance.h; sourceTree = "<group>"; };
+		B1CF0568289864CC6FA44DE787B8B3B3 /* YMALog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMALog.h; path = dynamic/YandexMobileAds.framework/Headers/YMALog.h; sourceTree = "<group>"; };
+		B6D04F971CE202C7B4CEEE2F54EEB206 /* YMANativeAdLoaderConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdLoaderConfiguration.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdLoaderConfiguration.h; sourceTree = "<group>"; };
+		B6D57FA55C6CEB8CA149A2687FBE88FC /* YMMYandexMetricaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaConfiguration.h; path = dynamic/YandexMobileMetrica.framework/Headers/YMMYandexMetricaConfiguration.h; sourceTree = "<group>"; };
+		B7DFB64A7E496EB9A01D696D7D891343 /* YMANativeContentAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeContentAdView.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeContentAdView.h; sourceTree = "<group>"; };
+		B9F7A6F71D88C8F533B41DA16D01D8B7 /* Pods-TestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestProject-dummy.m"; sourceTree = "<group>"; };
+		BD630056F8A9F99C3D78902C2704B605 /* YMAVASTErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVASTErrors.h; path = dynamic/YandexMobileAds.framework/Headers/YMAVASTErrors.h; sourceTree = "<group>"; };
+		BF07C4CF261698111EAD38A36EFB5334 /* YMAMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMediaFile.h; path = dynamic/YandexMobileAds.framework/Headers/YMAMediaFile.h; sourceTree = "<group>"; };
+		C583B1E1578C9C4E4C33246A294E8040 /* Pods-TestProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestProject-frameworks.sh"; sourceTree = "<group>"; };
+		C8743AADF1B0F32460A77E14966E0F61 /* YandexMobileMetrica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetrica-umbrella.h"; path = "dynamic/YandexMobileMetrica.framework/Headers/YandexMobileMetrica-umbrella.h"; sourceTree = "<group>"; };
+		CC3639FA2A4A449D952D8952B45C1A89 /* YandexMobileAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAds-umbrella.h"; path = "dynamic/YandexMobileAds.framework/Headers/YandexMobileAds-umbrella.h"; sourceTree = "<group>"; };
+		CD5C348E396648968065F2DC41D05636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D011A21DAAD8D89F0C97A6D973C7C50D /* YandexMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileAds.h; path = dynamic/YandexMobileAds.framework/Headers/YandexMobileAds.h; sourceTree = "<group>"; };
+		D37DA47BDD8D192F6B71BB44854D3FF0 /* YMAVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVersion.h; path = dynamic/YandexMobileAds.framework/Headers/YMAVersion.h; sourceTree = "<group>"; };
+		DB2C670DE9B5BD5242D485B7A05B010D /* YMMYandexMetricaPreloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPreloadInfo.h; path = dynamic/YandexMobileMetrica.framework/Headers/YMMYandexMetricaPreloadInfo.h; sourceTree = "<group>"; };
+		E158EB4AC20FD1BFCE3BDADC38885DF5 /* YMANativeContentAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeContentAd.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeContentAd.h; sourceTree = "<group>"; };
+		E211C87866561E4F871970415196196C /* YandexMobileNativeAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileNativeAds.h; path = dynamic/YandexMobileAds.framework/Headers/YandexMobileNativeAds.h; sourceTree = "<group>"; };
+		E3508A2C7FB8F0CA6CD52C47B6FB2E92 /* YMANativeAppInstallAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAppInstallAd.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAppInstallAd.h; sourceTree = "<group>"; };
+		E5D349FCD46A0D9975A425C8B6F19CB3 /* YMANativeImageAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeImageAd.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeImageAd.h; sourceTree = "<group>"; };
+		E7E1676E56ED54C1E12226E503573087 /* YMAVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVASTAd.h; path = dynamic/YandexMobileAds.framework/Headers/YMAVASTAd.h; sourceTree = "<group>"; };
+		E9B07330170BB9731DB9CE304A2E66B6 /* YandexMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMobileAds.framework; path = dynamic/YandexMobileAds.framework; sourceTree = "<group>"; };
+		EBEE5D0DD01F2A2C808A3C619F7FEC4F /* YMAAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdView.h; path = dynamic/YandexMobileAds.framework/Headers/YMAAdView.h; sourceTree = "<group>"; };
+		EF46FE6080ED62FDD3652A3D1EE9BAED /* YMANativeAdAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdAssets.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAdAssets.h; sourceTree = "<group>"; };
+		F3A2406C484DDB3EBAE02D2B54A22DCC /* YMANativeAppInstallAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAppInstallAdView.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeAppInstallAdView.h; sourceTree = "<group>"; };
+		F88B4789988E3519864CCF8C52F3E770 /* YMANativeImageAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeImageAdView.h; path = dynamic/YandexMobileAds.framework/Headers/YMANativeImageAdView.h; sourceTree = "<group>"; };
+		F9B6487CDC8578D7800A2B9C155DC66F /* Pods-TestProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE6AE054D5FCC934EE986984F33A7E6A /* YMAInterstitialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAInterstitialController.h; path = dynamic/YandexMobileAds.framework/Headers/YMAInterstitialController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A1128DF138D866072817955703066E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11CB7F1796F27D2BFA3337CEF3AD71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F390C34DFF5038D0CFF98509DDB44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B889F9868B5400E06954408ED3950E12 /* YandexMobileAds */,
+				4B92D8D32F26ED3042005C886FA7F218 /* YandexMobileMetrica */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B6EFDD0A03AEDEA3852E94415ED126F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9931B7E993274A44C512B9F5533F9AF6 /* Pods-TestProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30C75B02FBEE3D61F936DF6708C29AEE /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				40EB8CAB2F744CD390440EB81C27D50D /* YandexMobileMetrica.h */,
+				C8743AADF1B0F32460A77E14966E0F61 /* YandexMobileMetrica-umbrella.h */,
+				59414316956B6970A7009E833E587819 /* YMMVersion.h */,
+				7B191B2D9F4F4B56698C2C0F9381603A /* YMMYandexMetrica.h */,
+				B6D57FA55C6CEB8CA149A2687FBE88FC /* YMMYandexMetricaConfiguration.h */,
+				DB2C670DE9B5BD5242D485B7A05B010D /* YMMYandexMetricaPreloadInfo.h */,
+				6A3A47448E2224F38661D11F17092899 /* YMMYandexMetricaReporting.h */,
+				7F7A08C717A92D030FCCCCE44AB9DD8D /* Frameworks */,
+			);
+			name = Dynamic;
+			sourceTree = "<group>";
+		};
+		4B92D8D32F26ED3042005C886FA7F218 /* YandexMobileMetrica */ = {
+			isa = PBXGroup;
+			children = (
+				30C75B02FBEE3D61F936DF6708C29AEE /* Dynamic */,
+			);
+			name = YandexMobileMetrica;
+			path = YandexMobileMetrica;
+			sourceTree = "<group>";
+		};
+		546BC5C31074A8ED2A5A74C03E4E92F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B07330170BB9731DB9CE304A2E66B6 /* YandexMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21F390C34DFF5038D0CFF98509DDB44A /* Pods */,
+				D2CA9CDCB2BC969104BB74B274310376 /* Products */,
+				2B6EFDD0A03AEDEA3852E94415ED126F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7A08C717A92D030FCCCCE44AB9DD8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76D54A9E63FE9510A4A6D8D357D9E49 /* YandexMobileMetrica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9931B7E993274A44C512B9F5533F9AF6 /* Pods-TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C348E396648968065F2DC41D05636 /* Info.plist */,
+				A89C0D37DFA3D3F1C62B0DAF101A4E38 /* Pods-TestProject.modulemap */,
+				F9B6487CDC8578D7800A2B9C155DC66F /* Pods-TestProject-acknowledgements.markdown */,
+				541B44EB21F54844943153FF1AB76D38 /* Pods-TestProject-acknowledgements.plist */,
+				B9F7A6F71D88C8F533B41DA16D01D8B7 /* Pods-TestProject-dummy.m */,
+				C583B1E1578C9C4E4C33246A294E8040 /* Pods-TestProject-frameworks.sh */,
+				419DD183AD6FF87C2EAE215070C86B87 /* Pods-TestProject-resources.sh */,
+				AD86C7C79E99083A4C73CB74171E7279 /* Pods-TestProject-umbrella.h */,
+				3921A5E17F84A4D938E67C35A81DD1BF /* Pods-TestProject.debug.xcconfig */,
+				2361885F9FE25CD3A2D4306F4C683734 /* Pods-TestProject.release.xcconfig */,
+			);
+			name = "Pods-TestProject";
+			path = "Target Support Files/Pods-TestProject";
+			sourceTree = "<group>";
+		};
+		B889F9868B5400E06954408ED3950E12 /* YandexMobileAds */ = {
+			isa = PBXGroup;
+			children = (
+				D48C66C662D7A4F78DCB02318F97C5E5 /* Dynamic */,
+			);
+			name = YandexMobileAds;
+			path = YandexMobileAds;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2CA9CDCB2BC969104BB74B274310376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6E5930A4CB09BF358909108400CBE /* Pods_TestProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D48C66C662D7A4F78DCB02318F97C5E5 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				D011A21DAAD8D89F0C97A6D973C7C50D /* YandexMobileAds.h */,
+				CC3639FA2A4A449D952D8952B45C1A89 /* YandexMobileAds-umbrella.h */,
+				E211C87866561E4F871970415196196C /* YandexMobileNativeAds.h */,
+				3EB493B2E748D56ED318CC867C3D1F83 /* YandexMobileVASTAds.h */,
+				23F62984AA60E397E45BF7D73ACE91FA /* YMAAdRequest.h */,
+				730672E8881BA6A15F4D9D09958B44F6 /* YMAAdSize.h */,
+				EBEE5D0DD01F2A2C808A3C619F7FEC4F /* YMAAdView.h */,
+				6F16EAAA5BF40271AAE8EEDDD2CFBC71 /* YMABlock.h */,
+				A8C153EB854999B76D2E235603F54B7B /* YMABlocksInfo.h */,
+				5D5276B606F32CC3F17F6A0C51B890F1 /* YMACreative.h */,
+				3925F6185C54286F7D8475D216B1BCE7 /* YMAErrors.h */,
+				62F635F40D8C7C989E64AB838DAF58CF /* YMAIcon.h */,
+				FE6AE054D5FCC934EE986984F33A7E6A /* YMAInterstitialController.h */,
+				B1CF0568289864CC6FA44DE787B8B3B3 /* YMALog.h */,
+				BF07C4CF261698111EAD38A36EFB5334 /* YMAMediaFile.h */,
+				0EFCF326631A93AAB9EF16245BFB6675 /* YMAMobileAds.h */,
+				EF46FE6080ED62FDD3652A3D1EE9BAED /* YMANativeAdAssets.h */,
+				A1FE00A2AAC57D8FA4AB59E4B05BF8BF /* YMANativeAdDelegate.h */,
+				A79C32196A31F9A7454398963A82B3ED /* YMANativeAdErrors.h */,
+				4485695759244A89299B8ABB4E4ACAAC /* YMANativeAdImage.h */,
+				679827E6E57712F04835142C2EF978BD /* YMANativeAdLoader.h */,
+				B6D04F971CE202C7B4CEEE2F54EEB206 /* YMANativeAdLoaderConfiguration.h */,
+				399D1A72F6E26F9D0CF9364322C70E03 /* YMANativeAdTypes.h */,
+				E3508A2C7FB8F0CA6CD52C47B6FB2E92 /* YMANativeAppInstallAd.h */,
+				F3A2406C484DDB3EBAE02D2B54A22DCC /* YMANativeAppInstallAdView.h */,
+				A3568E666C6BFA5FC217F039D9D84BE6 /* YMANativeAssetsAppearance.h */,
+				0B3511714A0E9ECE8797145384F4AD76 /* YMANativeBannerView.h */,
+				E158EB4AC20FD1BFCE3BDADC38885DF5 /* YMANativeContentAd.h */,
+				B7DFB64A7E496EB9A01D696D7D891343 /* YMANativeContentAdView.h */,
+				A965B5EAD7E1E0B59334A199DC5DFC81 /* YMANativeGenericAd.h */,
+				E5D349FCD46A0D9975A425C8B6F19CB3 /* YMANativeImageAd.h */,
+				F88B4789988E3519864CCF8C52F3E770 /* YMANativeImageAdView.h */,
+				46EA439167424B151FBEC204CFB2F32C /* YMANativeImageLoadingObserver.h */,
+				AE9CE9A71B90CE2E3CA6BB0B2719B878 /* YMANativeTemplateAppearance.h */,
+				AADC68E806B84900BCD10C80838BCDE8 /* YMARating.h */,
+				E7E1676E56ED54C1E12226E503573087 /* YMAVASTAd.h */,
+				BD630056F8A9F99C3D78902C2704B605 /* YMAVASTErrors.h */,
+				3D77CF6FF965AE362375805E1FD48C03 /* YMAVASTTracker.h */,
+				D37DA47BDD8D192F6B71BB44854D3FF0 /* YMAVersion.h */,
+				93C77B66487C38090D51A50C4B32187A /* YMAVideoAdsRequest.h */,
+				47C4C9BBCDD60052356DF5D4B264D1DF /* YMAYandexVASTAds.h */,
+				546BC5C31074A8ED2A5A74C03E4E92F2 /* Frameworks */,
+			);
+			name = Dynamic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		415A3201DA998DD2F1C46CEC6280BA24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2432531DBFB3CCB1161FB46D0FC75E4B /* Pods-TestProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1D4E24DC29B6E260B8F38160B06A0B3 /* Pods-TestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E9822843BD4DF29E9A886FA61DE187 /* Build configuration list for PBXNativeTarget "Pods-TestProject" */;
+			buildPhases = (
+				1E607F36441FB85EC268F19A52FF752C /* Sources */,
+				76A1128DF138D866072817955703066E /* Frameworks */,
+				415A3201DA998DD2F1C46CEC6280BA24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestProject";
+			productName = "Pods-TestProject";
+			productReference = 6AC6E5930A4CB09BF358909108400CBE /* Pods_TestProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D2CA9CDCB2BC969104BB74B274310376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D4E24DC29B6E260B8F38160B06A0B3 /* Pods-TestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E607F36441FB85EC268F19A52FF752C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54ADB0587664D47F4FECB54D19AE4724 /* Pods-TestProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4307F66B84BE9EE9D300893ECA85DDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2361885F9FE25CD3A2D4306F4C683734 /* Pods-TestProject.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		973A90E2F2994D95FFC0A838F1CCCFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3921A5E17F84A4D938E67C35A81DD1BF /* Pods-TestProject.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E9822843BD4DF29E9A886FA61DE187 /* Build configuration list for PBXNativeTarget "Pods-TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973A90E2F2994D95FFC0A838F1CCCFF2 /* Debug */,
+				4307F66B84BE9EE9D300893ECA85DDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
