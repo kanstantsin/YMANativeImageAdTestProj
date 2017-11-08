@@ -1,9 +1,9 @@
 //
 //  AdManager.swift
-//  Mobile-Mos.ru
+//  Test.ru
 //
 //  Created by Ildar Zalyalov on 30.10.2017.
-//  Copyright © 2017 mos.ru. All rights reserved.
+//  Copyright © 2017 test.ru. All rights reserved.
 //
 
 import Foundation
